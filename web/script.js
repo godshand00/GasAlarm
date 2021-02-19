@@ -24,6 +24,22 @@ const containerShow = () => {
     show.className += " container-show"
 }
 
+document.getElementById('sign-up-btn').onclick = function() {
+    //alert('hello!');
+    document.getElementById('zc').title = '12312312312'
+}
+
+//检验用户名
+function checkUsername() {
+    alert("检验用户名");
+}
+
+$(function () {
+    //当表单提交时，调用所有的检验方法
+    $("#login-in").submit(function() {
+        return checkUsername();
+    });
+});
 
 window.onload = containerShow;
 
