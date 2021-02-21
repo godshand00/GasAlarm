@@ -6,6 +6,7 @@
   <title>Demo_0x01</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
 <body>
 
 <div class="container">
@@ -40,16 +41,17 @@
       <li class="yellow-btn"></li>
       <li class="green-btn"></li>
     </div>
-    <div class="title">新用户注册</div>
+    <div class="title" id="app" :title="mytitle">{{message}}</div>
     <form  id="sign-up">
-    <div class="input">
+      <div class="input">
       <input type="text" id="sign-user" placeholder="请输入想注册的用户名">
     </div>
-    <div class="input">
+      <div class="input">
       <input type="password" id="sign-password" placeholder="请输入新的密码">
     </div>
-    <div class="btn sign-btn" id="sign-up-btn">
-      <span id="zc">注册</span>
+      <div class="btn sign-btn">
+<!--      <span id="zc">注册</span>-->
+      <input id="sign-up-btn" type="button" value="注册">
     </div>
     </form>
     <div class="change-box sign-change">
@@ -60,7 +62,25 @@
   </div>
 </div>
 
-<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+let app;
+app = new Vue({
+el: '#app',
+data: {
+message: 'Hello Vue!',
+mytitle: '本系统暂不对外开放注册，请联系管理员添加账号！'
+}
+});
+/*  let signupbtn;
+signupbtn = new Vue({
+el: '#sign-up-btn',
+data: {
+mytitle: '本系统暂不对外开放注册，请联系管理员添加账号！'
+}
+})*/
+</script>
+
+<!--<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>-->
 <script src="script.js"></script>
 </body>
 </html>
