@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.571,=D:\java\GasAlarm\DesktopApp\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.386,D:\Leon\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\java\GasAlarm\DesktopApp\DataTransmissionForm.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.360,D:\java\GasAlarm\DesktopApp\Unit1.pas=D:\java\GasAlarm\DesktopApp\DataTransmissionDM.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.386,D:\Leon\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\java\GasAlarm\DesktopApp\DataTransmissionForm.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.360,D:\java\GasAlarm\DesktopApp\Unit1.dfm=D:\java\GasAlarm\DesktopApp\DataTransmissionDM.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.648,=D:\Leon\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.888,D:\Leon\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\java\GasAlarm\DesktopApp\DataTransmission.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.941,=D:\Leon\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.502,=D:\Leon\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.286,=D:\Leon\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
